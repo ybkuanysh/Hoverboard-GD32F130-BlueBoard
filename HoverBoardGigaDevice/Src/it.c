@@ -80,8 +80,8 @@ void TIMER13_IRQHandler(void)
 		if (timedOut == RESET)
 		{
 #ifdef MASTER
-			steer = 0;
-			speed = 0;
+			steer = 200;
+			speed = 1000;
 			beepsBackwards = RESET;
 #endif
 #ifdef SLAVE

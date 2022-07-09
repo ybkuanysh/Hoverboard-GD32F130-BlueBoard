@@ -44,7 +44,6 @@
 #include "stdlib.h"
 #include "string.h"
 #include <math.h>     
-#include "arm_math.h" 
 
 #ifdef MASTER
 int32_t steer = 0; 												// global variable for steering. -1000 to 1000
@@ -315,12 +314,14 @@ int main (void)
 
 	// Init usart steer/bluetooth
 	USART_Steer_COM_init();
+	
 
 #ifdef MASTER
+
 	// Startup-Sound
 	for (; index >= 0; index--)
 	{
-    buzzerFreq = index;
+    // buzzerFreq = index;
     Delay(10);
   }
   buzzerFreq = 0;
@@ -336,6 +337,7 @@ int main (void)
   while(1)
 	{
 #ifdef MASTER
+		
 		steerCounter++;	
 		if ((steerCounter % 2) == 0)
 		{	
