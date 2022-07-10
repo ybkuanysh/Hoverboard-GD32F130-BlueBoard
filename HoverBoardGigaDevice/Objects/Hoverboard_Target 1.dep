@@ -1,6 +1,6 @@
 Dependencies for Project 'Hoverboard', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler_5.06u7
-F (.\Src\main.c)(0x62C9BA71)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\kuanysh\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\Src\main.c)(0x62CA6023)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\kuanysh\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAE8D14)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F66FE)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E58E2)
@@ -26,8 +26,8 @@ I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAE8D14)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6D640)
 I (Src\../Inc/setup.h)(0x62C97903)
-I (Src\../Inc/../Inc/config.h)(0x62C9BDCA)
-I (Src\../Inc/defines.h)(0x62C9BA12)
+I (Src\../Inc/../Inc/config.h)(0x62CA6023)
+I (Src\../Inc/defines.h)(0x62CA5A5F)
 I (Src\../Inc/it.h)(0x62C97903)
 I (Src\../Inc/bldc.h)(0x62C97903)
 I (Src\../Inc/commsMasterSlave.h)(0x62C97903)
@@ -63,8 +63,8 @@ I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAE8D14)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6D640)
 I (Src\../Inc/setup.h)(0x62C97903)
-I (Src\../Inc/../Inc/config.h)(0x62C9BDCA)
-I (Src\../Inc/defines.h)(0x62C9BA12)
+I (Src\../Inc/../Inc/config.h)(0x62CA6023)
+I (Src\../Inc/defines.h)(0x62CA5A5F)
 F (.\Src\setup.c)(0x62C99A36)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\kuanysh\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\setup.o --omf_browse .\objects\setup.crf --depend .\objects\setup.d)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAE8D14)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F66FE)
@@ -91,10 +91,10 @@ I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAE8D14)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6D640)
 I (Src\../Inc/setup.h)(0x62C97903)
-I (Src\../Inc/../Inc/config.h)(0x62C9BDCA)
-I (Src\../Inc/defines.h)(0x62C9BA12)
+I (Src\../Inc/../Inc/config.h)(0x62CA6023)
+I (Src\../Inc/defines.h)(0x62CA5A5F)
 I (Src\../Inc/it.h)(0x62C97903)
-F (.\Src\it.c)(0x62C9BC6B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\kuanysh\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\it.o --omf_browse .\objects\it.crf --depend .\objects\it.d)
+F (.\Src\it.c)(0x62CA5E97)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\RTE\_Target_1-IC:\Users\kuanysh\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\it.o --omf_browse .\objects\it.crf --depend .\objects\it.d)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAE8D14)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F66FE)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E58E2)
@@ -120,8 +120,8 @@ I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAE8D14)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6D640)
 I (Src\../Inc/it.h)(0x62C97903)
-I (Src\../Inc/../Inc/config.h)(0x62C9BDCA)
-I (Src\../Inc/defines.h)(0x62C9BA12)
+I (Src\../Inc/../Inc/config.h)(0x62CA6023)
+I (Src\../Inc/defines.h)(0x62CA5A5F)
 I (Src\../Inc/bldc.h)(0x62C97903)
 I (Src\../Inc/led.h)(0x62C97903)
 I (Src\../Inc/commsMasterSlave.h)(0x62C97903)
@@ -177,8 +177,8 @@ I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB2F270)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAE8D14)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6D640)
-I (Src\../Inc/defines.h)(0x62C9BA12)
-I (Src\../Inc/../Inc/config.h)(0x62C9BDCA)
+I (Src\../Inc/defines.h)(0x62CA5A5F)
+I (Src\../Inc/../Inc/config.h)(0x62CA6023)
 I (Src\../Inc/setup.h)(0x62C97903)
 I (Src\../Inc/comms.h)(0x62C97903)
 I (Src\../Inc/commsMasterSlave.h)(0x62C97903)
@@ -212,11 +212,11 @@ I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAE8D14)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6D640)
 I (Src\../Inc/it.h)(0x62C97903)
-I (Src\../Inc/../Inc/config.h)(0x62C9BDCA)
+I (Src\../Inc/../Inc/config.h)(0x62CA6023)
 I (Src\../Inc/comms.h)(0x62C97903)
 I (Src\../Inc/commsSteering.h)(0x62C97903)
 I (Src\../Inc/setup.h)(0x62C97903)
-I (Src\../Inc/defines.h)(0x62C9BA12)
+I (Src\../Inc/defines.h)(0x62CA5A5F)
 I (Src\../Inc/bldc.h)(0x62C97903)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E58E2)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E58E2)
@@ -246,11 +246,11 @@ I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAE8D14)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6D640)
 I (Src\../Inc/it.h)(0x62C97903)
-I (Src\../Inc/../Inc/config.h)(0x62C9BDCA)
+I (Src\../Inc/../Inc/config.h)(0x62CA6023)
 I (Src\../Inc/comms.h)(0x62C97903)
 I (Src\../Inc/commsMasterSlave.h)(0x62C97903)
 I (Src\../Inc/setup.h)(0x62C97903)
-I (Src\../Inc/defines.h)(0x62C9BA12)
+I (Src\../Inc/defines.h)(0x62CA5A5F)
 I (Src\../Inc/bldc.h)(0x62C97903)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E58E2)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E58E2)
@@ -280,10 +280,10 @@ I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAE8D14)
 I (C:\Users\kuanysh\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6D640)
 I (Src\../Inc/led.h)(0x62C97903)
-I (Src\../Inc/../Inc/config.h)(0x62C9BDCA)
-I (Src\../Inc/defines.h)(0x62C9BA12)
-F (.\Inc\defines.h)(0x62C9BA12)()
-F (.\Inc\config.h)(0x62C9BDCA)()
+I (Src\../Inc/../Inc/config.h)(0x62CA6023)
+I (Src\../Inc/defines.h)(0x62CA5A5F)
+F (.\Inc\defines.h)(0x62CA5A5F)()
+F (.\Inc\config.h)(0x62CA6023)()
 F (.\Inc\bldc.h)(0x62C97903)()
 F (.\Inc\setup.h)(0x62C97903)()
 F (.\Inc\it.h)(0x62C97903)()

@@ -110,9 +110,9 @@
 
 // Usart steer defines
 #define USART_STEER_COM USART0
-#define USART_STEER_COM_TX_PIN GPIO_PIN_5
+#define USART_STEER_COM_TX_PIN GPIO_PIN_6
 #define USART_STEER_COM_TX_PORT GPIOB
-#define USART_STEER_COM_RX_PIN GPIO_PIN_6
+#define USART_STEER_COM_RX_PIN GPIO_PIN_7
 #define USART_STEER_COM_RX_PORT GPIOB
 
 #ifdef MASTER
@@ -126,7 +126,7 @@
 #endif
 
 // Debug pin defines
-#define DEBUG_PIN GPIO_PIN_4
+#define DEBUG_PIN GPIO_PIN_5
 #define DEBUG_PORT GPIOB
 
 // ADC value conversion defines

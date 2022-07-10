@@ -321,17 +321,20 @@ int main (void)
 	// Startup-Sound
 	for (; index >= 0; index--)
 	{
-    // buzzerFreq = index;
+    buzzerFreq = index;
     Delay(10);
   }
   buzzerFreq = 0;
 
+	
 	// Wait until button is pressed
-	while (gpio_input_bit_get(BUTTON_PORT, BUTTON_PIN))
+	// while (gpio_input_bit_get(BUTTON_PORT, BUTTON_PIN))
 	{
 		// Reload watchdog while button is pressed
 		fwdgt_counter_reload();
 	}
+	
+	
 #endif
 
   while(1)
@@ -435,21 +438,22 @@ int main (void)
       buzzerFreq = 5;
       buzzerPattern = 1;
     }
+		
 		// Shut device off, when battery is dead
-		else if (batteryVoltage < BAT_LOW_DEAD)
-		{
-      ShutOff();
-    }
-		else
-		{
-			ShutOff();
-    }
-
+		// else if (batteryVoltage < BAT_LOW_DEAD)
+		// {
+    //   ShutOff();
+    // }
+		// else
+		// {
+		// 	ShutOff();
+    // }
+		
 		// Shut device off when button is pressed
 		if (gpio_input_bit_get(BUTTON_PORT, BUTTON_PIN))
 		{
-      while (gpio_input_bit_get(BUTTON_PORT, BUTTON_PIN)) {}
-			ShutOff();
+      // while (gpio_input_bit_get(BUTTON_PORT, BUTTON_PIN)) {}
+			// ShutOff();
     }
 		
 		// Calculate inactivity timeout (Except, when charger is active -> keep device running)
@@ -465,10 +469,10 @@ int main (void)
 		// Shut off device after INACTIVITY_TIMEOUT in minutes
     if (inactivity_timeout_counter > (INACTIVITY_TIMEOUT * 60 * 1000) / (DELAY_IN_MAIN_LOOP + 1))
 		{ 
-      ShutOff();
+      // ShutOff();
     }
 #endif	
-
+		
 		Delay(DELAY_IN_MAIN_LOOP);
 		
 		// Reload watchdog (watchdog fires after 1,6 seconds)
